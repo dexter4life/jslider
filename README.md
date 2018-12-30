@@ -54,6 +54,7 @@ HOW TO USE jSLIDER.
             `</div>`
         `</div>`
     `</div>`
+    
 Note that class Item can contain any other type of elements or tags other than img tags.
 
 4.  The javascript to activate the plugin.
