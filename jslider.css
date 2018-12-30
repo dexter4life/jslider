@@ -1,0 +1,28 @@
+.list-slider {
+  display: block;
+  position: relative;
+  box-sizing: border-box; }
+
+.list-slider-body {
+  display: flex;
+  position: absolute;
+  flex-direction: row; }
+
+.item {
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 300px;
+  float: left;
+  transform: scale(1);
+  transition: transform 300ms ease-in-out;
+  user-select: none; }
+  .item.active {
+    display: inline-block;
+    position: sticky;
+    transform: scale(1.2, 1.3);
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); }
+  .item.arrows {
+    display: relative;
+    z-index: 999; }
